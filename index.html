@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DH - Bootstrap5 - Project</title>
+
+    <!-- Primary Meta Tags -->
+    <title>DH-Bootstrap5-Project-byNgweSin</title>
+    <meta name="title" content="DH-Bootstrap5-Project-byNgweSin" />
+    <meta
+      name="description"
+      content="This is the Bootstrap 5 project from Digital Hunter's Bootstrap class."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://dhbootstrap5project1.leoleo26.repl.co/"
+    />
+    <meta property="og:title" content="DH-Bootstrap5-Project-byNgweSin" />
+    <meta
+      property="og:description"
+      content="This is the Bootstrap 5 project from Digital Hunter's Bootstrap class."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://dhbootstrap5project1.leoleo26.repl.co/"
+    />
+    <meta property="twitter:title" content="DH-Bootstrap5-Project-byNgweSin" />
+    <meta
+      property="twitter:description"
+      content="This is the Bootstrap 5 project from Digital Hunter's Bootstrap class."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+
+    <link rel="icon" href="assests/images/SVG/homeImg.svg" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assests/packages/slick-1.8.1/slick-1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assests/packages/slick-1.8.1/slick-1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loading bg-blur">
+      <span class="loader"></span>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-blur animate__animated">
+      <div class="container-fluid">
+        <div class="position-relative ms-lg-5 me-lg-5">
+          <svg
+            class="contact-icon fill-contact-yellow sun-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"
+            />
+          </svg>
+          <svg
+            class="contact-icon position-absolute d-none moon-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"
+            />
+          </svg>
+        </div>
+
+        <a class="navbar-brand d-flex" href="#">
+          <img
+            src="assests/images/SVG/homeImg.svg"
+            class="contact-icon"
+            alt=""
+          />
+          <h5>DHB5</h5>
+        </a>
+
+        <button
+          class="navbar-toggler menu-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <div class="menu-icon" id="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item text-center">
+              <a class="nav-link me-lg-3" href="#home">Home</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link me-lg-3" href="#services">Services</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link me-lg-3" href="#about">About</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link me-lg-3" href="#portfolioId">Portfolio</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link me-lg-3" href="#team">Team</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link me-lg-3" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link me-lg-3" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item text-center me-lg-5">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="container d-flex align-items-center my-5 my-lg-0" id="home">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5 srAni">
+          <h6 class="primary-color-pink mb-3">Get Started</h6>
+          <h1 class="mb-3 fw-bold">
+            Make More Time For The Work That Matters Most
+          </h1>
+          <p class="text-muted mb-4">
+            When, while lovely valley teems with vapour around me and meridian
+            sin strikes the upper impenetrable.
+          </p>
+          <div class="">
+            <button
+              class="btn btn-pink mb-2 mb-sm-0 text-white primary-bg-color-pink rounded-pill btn-width me-3"
+            >
+              Watch Video
+            </button>
+            <button
+              class="btn btn-yellow secondary-bg-color-yellow rounded-pill btn-width"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 srAni">
+          <div>
+            <img src="assests/images/SVG/homeImg.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div
+      class="bg-pale d-flex align-items-center my-5 py-5 py-lg-0 my-lg-0 to-change-dark"
+      id="services"
+    >
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-7 srAni">
+            <h6 class="primary-color-pink mb-3">Our Services</h6>
+            <h1 class="mb-3 fw-bold">
+              Save Time Managing Social Media For Your Business
+            </h1>
+            <p class="text-muted mb-4">
+              In a professional context it often happens that private or
+              corporate clients corder a publication to be made and presented.
+            </p>
+            <button
+              class="btn btn-pink text-white primary-bg-color-pink rounded-pill btn-width me-3"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="col-lg-5 mt-4 mt-lg-0">
+            <div class="row g-4">
+              <div class="col-md-6 srAni">
+                <div class="card service-card border-0 rounded-15px ps-4">
+                  <div class="card-body">
+                    <div
+                      class="service-icon-con pink-shadow mb-3 d-flex justify-content-center align-items-center rounded-circle primary-bg-color-pink"
+                    >
+                      <svg
+                        class="service-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                          d="M256 32V51.2C329 66.03 384 130.6 384 208V226.8C384 273.9 401.3 319.2 432.5 354.4L439.9 362.7C448.3 372.2 450.4 385.6 445.2 397.1C440 408.6 428.6 416 416 416H32C19.4 416 7.971 408.6 2.809 397.1C-2.353 385.6-.2883 372.2 8.084 362.7L15.5 354.4C46.74 319.2 64 273.9 64 226.8V208C64 130.6 118.1 66.03 192 51.2V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32H256zM224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512z"
+                        />
+                      </svg>
+                    </div>
+                    <h6 class="fw-bold mb-3">
+                      Customer <br />
+                      Support
+                    </h6>
+                    <p class="my-small text-muted">30 available vacancy</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 srAni">
+                <div class="card service-card border-0 rounded-15px ps-4">
+                  <div class="card-body">
+                    <div
+                      class="service-icon-con green-shadow mb-3 d-flex justify-content-center align-items-center rounded-circle bg-color-green"
+                    >
+                      <svg
+                        class="service-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                          d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                        />
+                      </svg>
+                    </div>
+                    <h6 class="fw-bold mb-3">
+                      Human <br />
+                      Resources
+                    </h6>
+                    <p class="my-small text-muted">30 available vacancy</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 srAni">
+                <div class="card service-card border-0 rounded-15px ps-4">
+                  <div class="card-body">
+                    <div
+                      class="service-icon-con violet-shadow mb-3 d-flex justify-content-center align-items-center rounded-circle bg-color-violet"
+                    >
+                      <svg
+                        class="service-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                          d="M232.5 5.171C247.4-1.718 264.6-1.718 279.5 5.171L498.1 106.2C506.6 110.1 512 118.6 512 127.1C512 137.3 506.6 145.8 498.1 149.8L279.5 250.8C264.6 257.7 247.4 257.7 232.5 250.8L13.93 149.8C5.438 145.8 0 137.3 0 127.1C0 118.6 5.437 110.1 13.93 106.2L232.5 5.171zM498.1 234.2C506.6 238.1 512 246.6 512 255.1C512 265.3 506.6 273.8 498.1 277.8L279.5 378.8C264.6 385.7 247.4 385.7 232.5 378.8L13.93 277.8C5.438 273.8 0 265.3 0 255.1C0 246.6 5.437 238.1 13.93 234.2L67.13 209.6L219.1 279.8C242.5 290.7 269.5 290.7 292.9 279.8L444.9 209.6L498.1 234.2zM292.9 407.8L444.9 337.6L498.1 362.2C506.6 366.1 512 374.6 512 383.1C512 393.3 506.6 401.8 498.1 405.8L279.5 506.8C264.6 513.7 247.4 513.7 232.5 506.8L13.93 405.8C5.438 401.8 0 393.3 0 383.1C0 374.6 5.437 366.1 13.93 362.2L67.13 337.6L219.1 407.8C242.5 418.7 269.5 418.7 292.9 407.8V407.8z"
+                        />
+                      </svg>
+                    </div>
+                    <h6 class="fw-bold mb-3">
+                      Business <br />
+                      Development
+                    </h6>
+                    <p class="my-small text-muted">30 available vacancy</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 srAni">
+                <div class="card service-card border-0 rounded-15px ps-4">
+                  <div class="card-body">
+                    <div
+                      class="service-icon-con yellow-shadow mb-3 d-flex justify-content-center align-items-center rounded-circle secondary-bg-color-yellow"
+                    >
+                      <svg
+                        class="service-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"
+                      >
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                          d="M528 32h-480C21.49 32 0 53.49 0 80V96h576V80C576 53.49 554.5 32 528 32zM0 432C0 458.5 21.49 480 48 480h480c26.51 0 48-21.49 48-48V128H0V432zM368 192h128C504.8 192 512 199.2 512 208S504.8 224 496 224h-128C359.2 224 352 216.8 352 208S359.2 192 368 192zM368 256h128C504.8 256 512 263.2 512 272S504.8 288 496 288h-128C359.2 288 352 280.8 352 272S359.2 256 368 256zM368 320h128c8.836 0 16 7.164 16 16S504.8 352 496 352h-128c-8.836 0-16-7.164-16-16S359.2 320 368 320zM176 192c35.35 0 64 28.66 64 64s-28.65 64-64 64s-64-28.66-64-64S140.7 192 176 192zM112 352h128c26.51 0 48 21.49 48 48c0 8.836-7.164 16-16 16h-192C71.16 416 64 408.8 64 400C64 373.5 85.49 352 112 352z"
+                        />
+                      </svg>
+                    </div>
+                    <h6 class="fw-bold mb-3">
+                      Business <br />
+                      Development
+                    </h6>
+                    <p class="my-small text-muted">30 available vacancy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="d-flex align-items-center my-5 my-lg-0" id="about">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-7 mb-4 mb-lg-0 srAni">
+            <div>
+              <img
+                src="assests/images/SVG/aboutImg.svg"
+                class="img-fluid rounded-15px"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-5 srAni">
+            <h6 class="primary-color-pink mb-3">About Us</h6>
+            <h1 class="mb-3 fw-bold">
+              An Exceptionally Unique Experience Tailored To You
+            </h1>
+            <p class="text-muted mb-4">
+              When, while lovely valley teems with vapour around me and meridian
+              sin strikes the upper impenetrable.
+            </p>
+            <div class="">
+              <button
+                class="btn btn-pink mb-2 mb-sm-0 text-white primary-bg-color-pink rounded-pill btn-width me-3"
+              >
+                Watch Video
+              </button>
+              <button
+                class="btn btn-yellow secondary-bg-color-yellow rounded-pill btn-width"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div
+      class="d-flex flex-column justify-content-center my-5 my-lg-0 py-5 py-lg-0"
+      id="portfolioId"
+    >
+      <div class="container col-12 mb-5 srAni">
+        <div class="row justify-content-between">
+          <div class="col-lg-6">
+            <h6 class="primary-color-pink">Portfolio</h6>
+            <h4 class="fw-bold">The Works We Are Proud Of</h4>
+          </div>
+
+          <div class="col-lg-4">
+            <p class="text-muted">
+              When, while lovely valley teems with vapour around me and meridian
+              sin strikes the upper impenetrable.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio col-12 srAni">
+        <div class="d-flex justify-content-center">
+          <div class="col-10">
+            <div class="card rounded-15px border-0">
+              <img
+                src="assests/images/portfolioHakken.jpg"
+                class="card-img-top portfolio-img rounded-15px"
+                alt="portfolio"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-10">
+            <div class="card rounded-15px border-0">
+              <img
+                src="assests/images/portfolioHakken.jpg"
+                class="card-img-top portfolio-img rounded-15px"
+                alt="portfolio"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-10">
+            <div class="card rounded-15px border-0">
+              <img
+                src="assests/images/portfolioHakken.jpg"
+                class="card-img-top portfolio-img rounded-15px"
+                alt="portfolio"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-10">
+            <div class="card rounded-15px border-0">
+              <img
+                src="assests/images/portfolioHakken.jpg"
+                class="card-img-top portfolio-img rounded-15px"
+                alt="portfolio"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-10">
+            <div class="card rounded-15px border-0">
+              <img
+                src="assests/images/portfolioHakken.jpg"
+                class="card-img-top portfolio-img rounded-15px"
+                alt="portfolio"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-10">
+            <div class="card rounded-15px border-0">
+              <img
+                src="assests/images/portfolioHakken.jpg"
+                class="card-img-top portfolio-img rounded-15px"
+                alt="portfolio"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Member -->
+    <div
+      class="container d-flex align-items-center my-5 py-5 py-lg-0 my-lg-0"
+      id="team"
+    >
+      <div class="">
+        <div class="team-title text-center mb-5 srAni">
+          <h6 class="primary-color-pink">Our Team</h6>
+          <h2 class="fw-bold">Meet Our Team Of Experts</h2>
+        </div>
+
+        <div class="row g-3 justify-content-between">
+          <div class="col-lg-5 srAni">
+            <div class="card rounded-15px px-3 border-0 mb-3">
+              <div class="row g-0 align-items-center">
+                <div class="col-lg-6">
+                  <img
+                    src="assests/images/teamImg1.webp"
+                    class="img-fluid rounded-15px shadow"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <div class="card-body">
+                    <h6 class="fw-bold card-title mb-0">Hakken sama</h6>
+                    <p class="text-muted my-small">Cosplayer</p>
+                    <p class="card-text text-muted text-center">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+
+                    <div class="">
+                      <a
+                        href="https://mm.linkedin.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.facebook.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.twitter.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.instagram.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 srAni">
+            <div class="card rounded-15px px-3 border-0 mb-3">
+              <div class="row g-0 align-items-center">
+                <div class="col-lg-6">
+                  <img
+                    src="assests/images/teamImg1.webp"
+                    class="img-fluid rounded-15px shadow"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <div class="card-body">
+                    <h6 class="fw-bold card-title mb-0">Hakken sama</h6>
+                    <p class="text-muted my-small">Cosplayer</p>
+                    <p class="card-text text-muted text-center">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+
+                    <div class="">
+                      <a
+                        href="https://mm.linkedin.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.facebook.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.twitter.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.instagram.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 srAni">
+            <div class="card rounded-15px px-3 border-0 mb-3">
+              <div class="row g-0 align-items-center">
+                <div class="col-lg-6">
+                  <img
+                    src="assests/images/teamImg1.webp"
+                    class="img-fluid rounded-15px shadow"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <div class="card-body">
+                    <h6 class="fw-bold card-title mb-0">Hakken sama</h6>
+                    <p class="text-muted my-small">Cosplayer</p>
+                    <p class="card-text text-muted text-center">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+
+                    <div class="">
+                      <a
+                        href="https://mm.linkedin.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.facebook.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.twitter.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.instagram.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 srAni">
+            <div class="card rounded-15px px-3 border-0 mb-3">
+              <div class="row g-0 align-items-center">
+                <div class="col-lg-6">
+                  <img
+                    src="assests/images/teamImg1.webp"
+                    class="img-fluid rounded-15px shadow"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <div class="card-body">
+                    <h6 class="fw-bold card-title mb-0">Hakken sama</h6>
+                    <p class="text-muted my-small">Cosplayer</p>
+                    <p class="card-text text-muted text-center">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+
+                    <div class="">
+                      <a
+                        href="https://mm.linkedin.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.facebook.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.twitter.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon me-2"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        href="https://www.instagram.com/"
+                        class="text-decoration-none"
+                      >
+                        <svg
+                          class="team-icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div
+      class="bg-pale d-flex justify-content-center align-items-center my-5 py-5 py-lg-0 my-lg-0 to-change-dark"
+      id="testimonial"
+    >
+      <div class="container">
+        <div class="">
+          <div class="team-title text-center mb-5 srAni">
+            <h6 class="primary-color-pink">Testimonial</h6>
+            <h2 class="fw-bold">What The People Thinks About Us</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0 srAni">
+              <div
+                class="card position-relative p-4 border-0 shadow rounded-15px"
+              >
+                <div
+                  class="testimonial-icon-con d-flex justify-content-center align-items-center rounded-circle primary-bg-color-pink"
+                >
+                  <svg
+                    class="testimonial-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="card-body">
+                  <p class="card-text my-small mb-4">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div class="d-flex">
+                    <div class="">
+                      <img
+                        src="assests/images/teamImg1.webp"
+                        class="service-icon-con img-fluid rounded-circle"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="ms-3">
+                      <p class="small fw-bold mb-0">Hakken sama</p>
+                      <p class="my-small text-muted">Marketing Management</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-5 mb-lg-0 srAni">
+              <div
+                class="card position-relative p-4 border-0 shadow rounded-15px"
+              >
+                <div
+                  class="testimonial-icon-con d-flex justify-content-center align-items-center rounded-circle primary-bg-color-pink"
+                >
+                  <svg
+                    class="testimonial-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="card-body">
+                  <p class="card-text my-small mb-4">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div class="d-flex">
+                    <div class="">
+                      <img
+                        src="assests/images/teamImg1.webp"
+                        class="service-icon-con img-fluid rounded-circle"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="ms-3">
+                      <p class="small fw-bold mb-0">Hakken sama</p>
+                      <p class="my-small text-muted">Marketing Management</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 srAni">
+              <div
+                class="card position-relative p-4 border-0 shadow rounded-15px"
+              >
+                <div
+                  class="testimonial-icon-con d-flex justify-content-center align-items-center rounded-circle primary-bg-color-pink"
+                >
+                  <svg
+                    class="testimonial-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="card-body">
+                  <p class="card-text my-small mb-4">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div class="d-flex">
+                    <div class="">
+                      <img
+                        src="assests/images/teamImg1.webp"
+                        class="service-icon-con img-fluid rounded-circle"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="ms-3">
+                      <p class="small fw-bold mb-0">Hakken sama</p>
+                      <p class="my-small text-muted">Marketing Management</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing -->
+    <div
+      class="bg-pale d-flex align-items-center my-5 py-5 py-lg-0 my-lg-0 to-change-dark"
+      id="pricing"
+    >
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="col-lg-6 srAni">
+          <div class="team-title text-center mb-5">
+            <h6 class="primary-color-pink">Pricing Table</h6>
+            <h2 class="fw-bold">Choose The Right Plan For Your Business</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0 srAni">
+            <div class="card price-card p-4 border-0 rounded-15px">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title fw-bold">Basic</h5>
+                  <h5 class="card-title fw-bold">$4.95</h5>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                  <h6 class="text-muted">Most Popular</h6>
+                  <h6 class="text-muted">$4.95</h6>
+                </div>
+
+                <div class="dropdown-divider my-4"></div>
+
+                <div class="plans">
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Unlimited Updates & Projects</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Custom Permissions</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Custom Infrastructure</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Custom Design & Features</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Unlimited Updates</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Unlimited Updates & Projects</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <a
+                  href="#"
+                  class="col-12 btn-pink rounded-pill btn primary-bg-color-pink text-white"
+                  >Choose Plan</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 srAni">
+            <div class="card price-card p-4 border-0 rounded-15px">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title fw-bold">Basic</h5>
+                  <h5 class="card-title fw-bold">$4.95</h5>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                  <h6 class="text-muted">Most Popular</h6>
+                  <h6 class="text-muted">$4.95</h6>
+                </div>
+
+                <div class="dropdown-divider my-4"></div>
+
+                <div class="">
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Unlimited Updates & Projects</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Custom Permissions</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Custom Infrastructure</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Custom Design & Features</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Unlimited Updates</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Unlimited Updates & Projects</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <a
+                  href="#"
+                  class="col-12 btn-pink rounded-pill btn primary-bg-color-pink text-white"
+                  >Choose Plan</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 srAni">
+            <div class="card price-card p-4 border-0 rounded-15px">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title fw-bold">Basic</h5>
+                  <h5 class="card-title fw-bold">$4.95</h5>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                  <h6 class="text-muted">Most Popular</h6>
+                  <h6 class="text-muted">$4.95</h6>
+                </div>
+
+                <div class="dropdown-divider my-4"></div>
+
+                <div class="">
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Unlimited Updates & Projects</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Custom Permissions</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6>Custom Infrastructure</h6>
+                    <svg
+                      class="pricing-icon check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Custom Design & Features</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Unlimited Updates</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="plan mb-3 d-flex justify-content-between">
+                    <h6 class="text-muted">Unlimited Updates & Projects</h6>
+                    <svg
+                      class="pricing-icon fill-pale"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <a
+                  href="#"
+                  class="col-12 btn-pink rounded-pill btn primary-bg-color-pink text-white"
+                  >Choose Plan</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div
+      class="bg-pale d-flex justify-content-center align-items-center my-5 py-5 py-lg-0 my-lg-0 to-change-dark"
+      id="contact"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0 srAni">
+            <div class="">
+              <h2 class="fw-bold">Get In Touch</h2>
+              <p class="text-muted small">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                praesentium?
+              </p>
+            </div>
+
+            <div class="address">
+              <div class="card shadow-sm border-0 mb-3 rounded-15px">
+                <div class="row g-0">
+                  <div
+                    class="col-4 d-flex justify-content-center align-items-center"
+                  >
+                    <div
+                      class="contact-icon-con rounded-15px contact-green d-flex justify-content-center align-items-center"
+                    >
+                      <svg
+                        class="contact-icon fill-contact-green"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                      >
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                          d="M384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192H384z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h6 class="card-title fw-bold">Address</h6>
+                      <p class="card-text text-muted my-small">
+                        123 Ave, Lorem City, site Country, <br />
+                        The World
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone">
+              <div class="card shadow-sm border-0 mb-3 rounded-15px">
+                <div class="row g-0">
+                  <div
+                    class="col-4 d-flex justify-content-center align-items-center"
+                  >
+                    <div
+                      class="contact-icon-con rounded-15px contact-yellow d-flex justify-content-center align-items-center"
+                    >
+                      <svg
+                        class="contact-icon fill-contact-yellow"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                          d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h6 class="card-title fw-bold">Phone</h6>
+                      <p class="card-text text-muted my-small">
+                        09 bla bla bla, 01 bla bla bla, <br />
+                        02 bla bla bla
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="email">
+              <div class="card shadow-sm border-0 mb-3 rounded-15px">
+                <div class="row g-0">
+                  <div
+                    class="col-4 d-flex justify-content-center align-items-center"
+                  >
+                    <div
+                      class="contact-icon-con rounded-15px contact-red d-flex justify-content-center align-items-center"
+                    >
+                      <svg
+                        class="contact-icon fill-contact-red"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                          d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h6 class="card-title fw-bold">Email</h6>
+                      <p class="card-text text-muted my-small">
+                        kaunglay@gmail.com <br />
+                        kaungmalay@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 srAni">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.82756430778!2d96.16526854970019!3d16.785252488385346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1edbcdd4719ff%3A0xb20c05c2e8ea5cf0!2zUHJlY2lvdXMgSG90cG90ICYg4YCZ4YCs4YCc4YCs4YCb4YC94YCZ4YC64YC44YCA4YCx4YCsIChIYWxhbCk!5e0!3m2!1sen!2smm!4v1655894927799!5m2!1sen!2smm"
+              width="100%"
+              height="520"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="col-lg-4 srAni">
+            <div class="mb-4">
+              <h5 class="fw-bold">Send A Request</h5>
+              <p class="text-muted my-small">Required fields are marked*</p>
+            </div>
+
+            <form>
+              <input
+                type="email"
+                class="form-control rounded-pill mb-3 border-0"
+                name="email"
+                placeholder="Email*"
+                required
+              />
+              <input
+                type="text"
+                class="form-control rounded-pill mb-3 border-0"
+                name="name"
+                placeholder="Your Name*"
+                required
+              />
+              <textarea
+                name="message"
+                class="form-control rounded-15px mb-3 border-0"
+                rows="7"
+                placeholder="Comment"
+              ></textarea>
+              <button
+                class="btn btn-pink primary-bg-color-pink rounded-pill text-white px-4 float-end"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="d-flex justify-content-center align-items-center my-5 my-lg-0"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-8">
+            <div class="text-center">
+              <h2 class="fw-bold">
+                App Is Available For Free On Google Play & App Store
+              </h2>
+              <p class="text-muted my-small">
+                We'll help you achieve your marketing & business goals
+              </p>
+
+              <div class="my-4">
+                <button
+                  class="btn btn-pink text-white primary-bg-color-pink rounded-pill btn-width mb-2 mb-lg-0 me-lg-3"
+                >
+                  <svg
+                    class="testimonial-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                  >
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                    />
+                  </svg>
+                  App Store
+                </button>
+                <button
+                  class="btn btn-yellow secondary-bg-color-yellow rounded-pill btn-width"
+                >
+                  <svg
+                    class="testimonial-icon fill-dark"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"
+                    />
+                  </svg>
+                  Google Play
+                </button>
+              </div>
+
+              <div class="social mb-4 d-flex justify-content-evenly">
+                <div class="">
+                  <p class="mb-0 text-muted my-small">Twitter</p>
+                  <div class="dropdown-divider"></div>
+                </div>
+
+                <div class="">
+                  <p class="mb-0 text-muted my-small">Dribble</p>
+                  <div class="dropdown-divider"></div>
+                </div>
+
+                <div class="">
+                  <p class="mb-0 text-muted my-small">Instagram</p>
+                  <div class="dropdown-divider"></div>
+                </div>
+
+                <div class="">
+                  <p class="mb-0 text-muted my-small">YouTube</p>
+                  <div class="dropdown-divider"></div>
+                </div>
+
+                <div class="">
+                  <p class="mb-0 text-muted my-small">Slock</p>
+                  <div class="dropdown-divider"></div>
+                </div>
+              </div>
+
+              <p class="mb-0 text-muted my-small">
+                &copy; 2022 All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="up d-none animate__animated">
+      <div
+        class="up-icon-con primary-bg-color-pink btn-pink d-flex justify-content-center align-items-center rounded-circle"
+      >
+        <a href="#home">
+          <svg
+            class="service-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/1e64a3980d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="node_modules/waypoints/lib/noframework.waypoints.min.js"></script>
+    <script src="assests/packages/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
