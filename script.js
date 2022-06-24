@@ -159,27 +159,33 @@ if (theme === "dark") {
   changeToLightMode();
 }
 
-// Menubar
+// Scrollreveal
+ScrollReveal({
+  origin: 'bottom',
+  distance: '100px',
+  reset: true,
+  duration: 1000,
+}).reveal('.srAni', {
+  interval: 200,
+  scale: 0.8,
+});
+
+// Loading
+window.addEventListener("load", () => {
+  document.querySelector(".loading").style.display = "none"
+})
+
+// Navbar
+let navBarPh = document.getElementById("navbarSupportedContent");
 const menuIcon = document.querySelector(".menu-icon");
 
 menuIcon.addEventListener("click", () => {
   menuIcon.classList.toggle("show-ani");
 });
 
-// Scrollreveal
-ScrollReveal({
-  origin: 'bottom',
-  distance: '200px',
-  // reset: true,
-  duration: 1500,
-}).reveal('.srAni', {
-  interval: 200,
-  scale: 0.9,
-});
-
-// Loading
-window.addEventListener("load", () => {
-  document.querySelector(".loading").style.opacity = "0"
-})
-
-
+for (let i = 0; i < navLink.length; i++) {
+  navLink[i].addEventListener("click", () => {
+    navBarPh.classList.remove("show");
+    menuIcon.classList.remove("show-ani");
+  })
+}
